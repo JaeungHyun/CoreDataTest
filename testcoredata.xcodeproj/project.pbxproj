@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF15D9242285172F006DC0D1 /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF15D9232285172F006DC0D1 /* LogVC.swift */; };
 		CFF7855622849F3500450197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7855522849F3500450197 /* AppDelegate.swift */; };
 		CFF7855822849F3500450197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7855722849F3500450197 /* ViewController.swift */; };
 		CFF7855B22849F3500450197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF7855922849F3500450197 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF15D9232285172F006DC0D1 /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
 		CFF7855222849F3500450197 /* testcoredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testcoredata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF7855522849F3500450197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFF7855722849F3500450197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				CFF7855722849F3500450197 /* ViewController.swift */,
 				CFF7856A22849F3F00450197 /* ListVC.swift */,
 				CFF7855922849F3500450197 /* Main.storyboard */,
+				CF15D9232285172F006DC0D1 /* LogVC.swift */,
 				CFF7855F22849F3600450197 /* Assets.xcassets */,
 				CFF7856122849F3600450197 /* LaunchScreen.storyboard */,
 				CFF7856422849F3600450197 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				CFF7856B22849F3F00450197 /* ListVC.swift in Sources */,
 				CFF7855822849F3500450197 /* ViewController.swift in Sources */,
+				CF15D9242285172F006DC0D1 /* LogVC.swift in Sources */,
 				CFF7855622849F3500450197 /* AppDelegate.swift in Sources */,
 				CFF7855E22849F3500450197 /* testcoredata.xcdatamodeld in Sources */,
 			);
