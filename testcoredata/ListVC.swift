@@ -200,5 +200,13 @@ class ListVC: UITableViewController {
         }) // end of alertAddAction
         self.present(alert, animated: false)
     }
+    
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        let object = self.list[indexPath.row]
+        let uvc = self.storyboard?.instantiateViewController(withIdentifier: "LogVC") as! LogVC
+        uvc.board = object as! BoardMO
+        
+        self.show(uvc, sender: self)
+    }
 }
 

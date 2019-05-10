@@ -4,7 +4,7 @@
         <attribute name="contents" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="regDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="logs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Log" inverseName="board" inverseEntity="Log" syncable="YES"/>
+        <relationship name="logs" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Log" inverseName="board" inverseEntity="Log" syncable="YES"/>
     </entity>
     <entity name="Log" representedClassName="LogMO" syncable="YES" codeGenerationType="class">
         <attribute name="regDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
